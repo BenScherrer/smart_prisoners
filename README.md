@@ -12,9 +12,9 @@ Surprisingly, there is a strategy that provides for the survival of all the pris
 
 To describe the strategy, not only the prisoners, but also the drawers, are numbered from 1 to 100; for example, row by row starting with the top left drawer. The strategy is now as follows:[3]
 
-_Each prisoner first opens the drawer labeled with their own number.
-If this drawer contains their number, they are done and were successful.
-Otherwise, the drawer contains the number of another prisoner, and they next open the drawer labeled with this number.
+_1 . Each prisoner first opens the drawer labeled with their own number. \
+2. If this drawer contains their number, they are done and were successful. \
+3. Otherwise, the drawer contains the number of another prisoner, and they next open the drawer labeled with this number. \
 The prisoner repeats steps 2 and 3 until they find their own number, or fail because the number is not found in the first fifty opened drawers._
 
 If the prisoner could continue indefinitely this way, they would inevitably loop back to the drawer they started with, forming a permutation cycle (see below). By starting with their own number, the prisoner guarantees they are on the specific cycle of drawers containing their number. The only question is whether any cycle is longer than fifty drawers - and only one cycle can possibly be too long, since at most one can comprise more than half of the total drawers. 
